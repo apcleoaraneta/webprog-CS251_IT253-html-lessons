@@ -1,30 +1,184 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Personal Profile Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Google Fonts: Syne -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-    <h1>Personal Profile Web Page</h1>
+    <header class="navbar">
+        <nav class="nav-links">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies and Interests</a>
+            <a href="#gallery">Gallery</a>
+        </nav>
+    </header>
 
-    <h2>About Me</h2>
-    <p>
-        (Do not include birthdate, age, or contact information)
-    </p>
+    <main class="container">
 
-    <h2>Education / Achievements</h2>
+        <section id="Hero" class="section">
+            <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero dicta earum quia? Cupiditate tenetur
+                molestias, eaque architecto veniam velit distinctio reiciendis aut necessitatibus optio rerum, aliquam
+                blanditiis incidunt vero animi?
+            </h1>
+        </section>
 
-    <h2>Course</h2>
+        <section id="about" class="section">
+            <div id="about-container">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda deleniti minima, totam optio qui
+                    excepturi consectetur corporis quis impedit natus corrupti laborum temporibus dignissimos dicta
+                    saepe!
+                    Beatae, quas nam? Quos.</p>
+            </div>
+            <h2>About Me</h2>
+        </section>
 
-    <h2>IT Experience</h2>
+        <section id="education" class="section">
 
-    <h2>Hobbies & Interests</h2>
+            <div id="education-container">
 
-    <h2>Goals in Life / Dream</h2>
+                <!-- Card 1 College-->
+                <article class="education-card">
+                    <img src="assets/apc-logo.png" alt="Asia Pacific College Logo" class="card-img">
+                    <div class="education-text">
+                        <h3>College</h3>
+                        <h4>ASIA PACIFIC COLLEGE</h4>
+                        <p>Bachelor of Science in Computer Science</p>
+                        <p>2025-2029</p>
+                    </div>
+                </article>
 
-    <h2>Picture Gallery</h2>
-    <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
+                <!-- Card 2 Senior Highschool-->
+                <article class="education-card">
+                    <img src="assets/ama logo.png" alt="AMA OED Logo" class="card-img">
+                    <div class="education-text">
+                        <h3>Senior Highschool</h3>
+                        <h4>AMA OED</h4>
+                        <p>Science, Technology, Engineering, and Mathematics</p>
+                    </div>
+                </article>
 
+            </div>
+            <h2>Education</h2>
+
+        </section>
+
+        <section id="projects" class="section">
+            <div id="projects-container">
+
+                <article class="project-card">
+                    <img src="assets/tara.png" alt="Screenshot of the TARA travel planner" class="project-img">
+                    <div class="project-text">
+                        <h3>TARA - AI Travel Planner</h3>
+                        <h4>Web Application &amp; Generative AI</h4>
+                        <p class="project-description">
+                            Built for USERDES to fix chaotic group vacation planning. Powered by the Gemini API to
+                            coordinate group costs, discover local spots, and generate customized travel schedules.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/java.png" alt="Screenshot of the cafeteria ordering system" class="project-img">
+                    <div class="project-text">
+                        <h3>Cafeteria Ordering System</h3>
+                        <h4>Desktop Application</h4>
+                        <p class="project-description">
+                            A desktop cafeteria ordering system built in Java Swing using OOP and CardLayout. Features
+                            student registration, multi-stall menu selection, order summary confirmation, and a staff
+                            dashboard to manage the kitchen queue.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-text">
+                        <h3>APC Library CO₂ Air Quality Study</h3>
+                        <h4>Research Paper</h4>
+                        <p class="project-description">
+                            Ran the data analysis for a campus air quality research paper, using Python (pandas and
+                            seaborn) to clean 12 months of sensor logs and analyze CO2 spikes in the APC library.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+            <h2>Featured Projects</h2>
+        </section>
+
+        <section id="hobbies" class="section">
+            <div id="hobbies-container">
+
+                <div class="hobby-group">
+                    <h3>Anime</h3>
+                    <div class="hobby-list">
+                        <article class="hobby-item">
+                            <img src="assets/gintama.png" alt="Gintama cover" class="hobby-img">
+                            <p>Gintama</p>
+                        </article>
+                        <article class="hobby-item">
+                            <img src="assets/one piece.png" alt="One Piece cover" class="hobby-img">
+                            <p>One Piece</p>
+                        </article>
+                        <article class="hobby-item">
+                            <img src="assets/YuYu Hakusho.png" alt="Yu Yu Hakusho cover" class="hobby-img">
+                            <p>Yu Yu Hakusho</p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="hobby-group">
+                    <h3>Books</h3>
+                    <div class="hobby-list">
+                        <article class="hobby-item">
+                            <img src="assets/crime and punishment.png" alt="Crime and Punishment cover"
+                                class="hobby-img">
+                            <p>Crime and Punishment</p>
+                        </article>
+                        <article class="hobby-item">
+                            <img src="assets/the alchemist.png" alt="The Alchemist cover" class="hobby-img">
+                            <p>The Alchemist</p>
+                        </article>
+                        <article class="hobby-item">
+                            <img src="assets/man's search for meaning.png" alt="Man's Search for Meaning cover"
+                                class="hobby-img">
+                            <p>Man's Search for Meaning</p>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+            <h2>Hobbies</h2>
+        </section>
+
+        <section id="gallery" class="section">
+            <div id="gallery-container">
+                <img src="assets/gallery.jpg" alt="Gallery photo" class="gallery-img">
+            </div>
+            <h2>Gallery</h2>
+        </section>
+
+    </main>
+
+    <script>
+        history.scrollRestoration = 'manual';
+        if (location.hash) {
+            history.replaceState(null, '', location.pathname);
+        }
+        window.scrollTo({ top: 0, behavior: 'instant' });
+    </script>
 </body>
+
 </html>
