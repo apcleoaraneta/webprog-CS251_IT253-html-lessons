@@ -68,7 +68,7 @@ h3 {
 
 /* ---------- Layout ---------- */
 
-.container {
+.page-wrapper {
     word-wrap: break-word;
     max-width: 100%;
     margin: 0;
@@ -113,21 +113,20 @@ h3 {
     color: #4c4c52;
 }
 
-.hero-flex {
+.container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    background-color: DodgerBlue;
     margin-top: 24px;
 }
 
-.hero-flex div {
-    background-color: #efefe9;
-    border: 1px solid #e2e2dd;
-    color: #111113;
-    padding: 8px 14px;
-    border-radius: 8px;
-    font-size: 0.9rem;
+.container div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
     text-align: center;
+    font-size: 30px;
 }
 
 .hero-img {
