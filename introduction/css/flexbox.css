@@ -68,7 +68,7 @@ h3 {
 
 /* ---------- Layout ---------- */
 
-.page-wrapper {
+.container {
     word-wrap: break-word;
     max-width: 100%;
     margin: 0;
@@ -111,22 +111,6 @@ h3 {
 .quote-author {
     margin: 0;
     color: #4c4c52;
-}
-
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: DodgerBlue;
-    margin-top: 24px;
-}
-
-.container div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
 }
 
 .hero-img {
