@@ -113,6 +113,23 @@ h3 {
     color: #4c4c52;
 }
 
+.hero-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.hero-flex div {
+    background-color: #efefe9;
+    border: 1px solid #e2e2dd;
+    color: #111113;
+    padding: 8px 14px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
 .hero-img {
     height: clamp(360px, 60vh, 540px);
     width: auto;
