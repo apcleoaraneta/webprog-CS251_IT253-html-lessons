@@ -5,20 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leo Donn Araneta</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Hanken+Grotesk:wght@400;500;600&display=swap"
-        rel="stylesheet">
-
 </head>
 
 <body>
 
-    <header class="navbar">
-        <a href="#hero" class="nav-name">Leo Araneta</a>
-        <nav class="nav-links">
+    <header>
+        <a href="#hero">Leo Araneta</a>
+        <nav>
             <a href="#about">About</a>
             <a href="#education">Education</a>
             <a href="#projects">Projects</a>
@@ -27,19 +20,24 @@
         </nav>
     </header>
 
-    <main class="container">
+    <hr>
 
-        <section id="hero" class="section hero">
-            <div class="hero-quote">
+    <main>
+
+        <section id="hero">
+            <div>
                 <h1>"The unexamined life is not worth living."</h1>
-                <p class="quote-author">Socrates</p>
+                <p>Socrates</p>
             </div>
-            <img src="assets/gallery.jpg" alt="Portrait of Leo Donn Araneta" class="hero-img">
+            <img src="assets/gallery.jpg" alt="Portrait of Leo Donn Araneta" height="360">
         </section>
 
-        <section id="about" class="section">
-            <div id="about-container">
-                <div class="about-col">
+        <hr>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div>
+                <div>
                     <p>
                         I'm Leo Donn Araneta, a Computer Science student at Asia Pacific College with an interest in
                         software development, artificial intelligence, and automation. I enjoy exploring new
@@ -53,9 +51,9 @@
                         I believe the best way to learn is by building things, understanding how they work, and
                         continuously improving them.
                     </p>
-                    <h2>About Me</h2>
                 </div>
-                <div class="about-col">
+                <div>
+                    <h3>Goals</h3>
                     <p>
                         My goal is to pursue a career in AI automation, software engineering, or the SAP field. I'm
                         still
@@ -63,18 +61,20 @@
                         technical
                         skills, expanding my knowledge, and discovering where my interests and strengths can take me.
                     </p>
-                    <h3>Goals</h3>
                 </div>
             </div>
         </section>
 
-        <section id="education" class="section">
-            <div id="education-container">
+        <hr>
+
+        <section id="education">
+            <h2>Education</h2>
+            <div>
 
                 <!-- Card 1 College-->
-                <article class="education-card">
-                    <img src="assets/apc-logo.png" alt="Asia Pacific College Logo" class="card-img">
-                    <div class="education-text">
+                <article>
+                    <img src="assets/apc-logo.png" alt="Asia Pacific College Logo" width="96" height="96">
+                    <div>
                         <h3>College</h3>
                         <h4>Asia Pacific College</h4>
                         <p>Bachelor of Science in Computer Science (BSCS-251)</p>
@@ -83,41 +83,43 @@
                 </article>
 
                 <!-- Card 2 Senior Highschool-->
-                <article class="education-card">
-                    <img src="assets/ama logo.png" alt="AMA OED Logo" class="card-img">
-                    <div class="education-text">
+                <article>
+                    <img src="assets/ama logo.png" alt="AMA OED Logo" width="96" height="96">
+                    <div>
                         <h3>Senior High School</h3>
                         <h4>AMA Online Education</h4>
                         <p>Science, Technology, Engineering, and Mathematics</p>
+                        <p>2022 - 2024</p>
                     </div>
                 </article>
 
             </div>
-            <h2>Education</h2>
         </section>
 
-        <section id="projects" class="section">
-            <div id="projects-container">
+        <hr>
 
-                <article class="project-card">
-                    <img src="assets/tara.png" alt="Screenshot of the TARA travel planner"
-                        class="project-img project-img-portrait">
-                    <div class="project-text">
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div>
+
+                <article>
+                    <img src="assets/tara.png" alt="Screenshot of the TARA travel planner" height="210">
+                    <div>
                         <h3>TARA - AI Travel Planner</h3>
                         <h4>Web Application &amp; Generative AI</h4>
-                        <p class="project-description">
+                        <p>
                             Built for USERDES to fix chaotic group vacation planning. Powered by the Gemini API to
                             coordinate group costs, discover local spots, and generate customized travel schedules.
                         </p>
                     </div>
                 </article>
 
-                <article class="project-card">
-                    <img src="assets/java.png" alt="Screenshot of the cafeteria ordering system" class="project-img">
-                    <div class="project-text">
+                <article>
+                    <img src="assets/java.png" alt="Screenshot of the cafeteria ordering system" height="210">
+                    <div>
                         <h3>Cafeteria Ordering System</h3>
                         <h4>Desktop Application</h4>
-                        <p class="project-description">
+                        <p>
                             A desktop cafeteria ordering system built in Java Swing using OOP and CardLayout. Features
                             student registration, multi-stall menu selection, order summary confirmation, and a staff
                             dashboard to manage the kitchen queue.
@@ -125,11 +127,11 @@
                     </div>
                 </article>
 
-                <article class="project-card">
-                    <div class="project-text">
+                <article>
+                    <div>
                         <h3>APC Library CO2 Air Quality Study</h3>
                         <h4>Research Paper</h4>
-                        <p class="project-description">
+                        <p>
                             Ran the data analysis for a campus air quality research paper, using Python (pandas and
                             seaborn) to clean 12 months of sensor logs and analyze CO2 spikes in the APC library.
                         </p>
@@ -137,62 +139,63 @@
                 </article>
 
             </div>
-            <h2>Featured Projects</h2>
         </section>
 
-        <section id="hobbies" class="section">
-            <div id="hobbies-container">
+        <hr>
 
-                <div class="hobby-group">
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <div>
+
+                <div>
                     <h3>Anime</h3>
-                    <div class="hobby-list">
-                        <article class="hobby-item">
-                            <img src="assets/gintama.png" alt="Gintama cover" class="hobby-img">
+                    <div>
+                        <article>
+                            <img src="assets/gintama.png" alt="Gintama cover" width="130" height="195">
                             <p>Gintama</p>
                         </article>
-                        <article class="hobby-item">
-                            <img src="assets/demalo.png" alt="One Piece cover" class="hobby-img">
+                        <article>
+                            <img src="assets/demalo.png" alt="One Piece cover" width="130" height="195">
                             <p>One Piece</p>
                         </article>
-                        <article class="hobby-item">
-                            <img src="assets/YuYu Hakusho.png" alt="Yu Yu Hakusho cover" class="hobby-img">
+                        <article>
+                            <img src="assets/YuYu Hakusho.png" alt="Yu Yu Hakusho cover" width="130" height="195">
                             <p>Yu Yu Hakusho</p>
                         </article>
                     </div>
                 </div>
 
-                <div class="hobby-group">
+                <div>
                     <h3>Books</h3>
-                    <div class="hobby-list">
-                        <article class="hobby-item">
-                            <img src="assets/crime and punishment.png" alt="Crime and Punishment cover"
-                                class="hobby-img">
+                    <div>
+                        <article>
+                            <img src="assets/crime and punishment.png" alt="Crime and Punishment cover" width="130" height="195">
                             <p>Crime and Punishment</p>
                         </article>
-                        <article class="hobby-item">
-                            <img src="assets/the alchemist.png" alt="The Alchemist cover" class="hobby-img">
+                        <article>
+                            <img src="assets/the alchemist.png" alt="The Alchemist cover" width="130" height="195">
                             <p>The Alchemist</p>
                         </article>
-                        <article class="hobby-item">
-                            <img src="assets/man's search for meaning.png" alt="Man's Search for Meaning cover"
-                                class="hobby-img">
+                        <article>
+                            <img src="assets/man's search for meaning.png" alt="Man's Search for Meaning cover" width="130" height="195">
                             <p>Man's Search for Meaning</p>
                         </article>
                     </div>
                 </div>
 
             </div>
-            <h2>Hobbies</h2>
         </section>
 
-        <section id="gallery" class="section">
-            <div id="gallery-container">
-                <img src="assets/gallery.jpg" alt="Gallery photo 1" class="gallery-img">
-                <img src="assets/PXL_20260702_233114793.jpg" alt="Gallery photo 2" class="gallery-img">
-                <img src="assets/PXL_20260923_023713025.jpg" alt="Gallery photo 3" class="gallery-img">
-                <img src="assets/PXL_20261019_075328523.PORTRAIT.jpg" alt="Gallery photo 4" class="gallery-img">
-            </div>
+        <hr>
+
+        <section id="gallery">
             <h2>Gallery</h2>
+            <div>
+                <img src="assets/gallery.jpg" alt="Gallery photo 1" height="260">
+                <img src="assets/PXL_20260702_233114793.jpg" alt="Gallery photo 2" height="260">
+                <img src="assets/PXL_20260923_023713025.jpg" alt="Gallery photo 3" height="260">
+                <img src="assets/PXL_20261019_075328523.PORTRAIT.jpg" alt="Gallery photo 4" height="260">
+            </div>
         </section>
 
     </main>
