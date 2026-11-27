@@ -10,63 +10,49 @@
 
 <body>
 
-    <header>
-        <a href="#hero">Leo Araneta</a>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#projects">Projects</a>
-            <a href="#hobbies">Hobbies and Interests</a>
-            <a href="#gallery">Gallery</a>
-        </nav>
-    </header>
+    <div class="grid-container">
+
+        <div class="header">
+            <h1>Leo Donn Araneta</h1>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#hobbies">Hobbies and Interests</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </div>
+
+        <div class="content" id="about">
+            <h1>About Me</h1>
+            <p>
+                I'm Leo Donn Araneta, a Computer Science student at Asia Pacific College with an interest in
+                software development, artificial intelligence, and automation. I enjoy exploring new technologies
+                and turning ideas into practical projects, whether through school activities, personal projects,
+                or hackathons. I'm particularly interested in how AI can be integrated into software to solve
+                real-world problems and make processes more efficient.
+            </p>
+            <p>
+                I believe the best way to learn is by building things, understanding how they work, and
+                continuously improving them.
+            </p>
+            <p>
+                My goal is to pursue a career in AI automation, software engineering, or the SAP field. I'm still
+                open to exploring different opportunities within these fields as I continue developing my technical
+                skills, expanding my knowledge, and discovering where my interests and strengths can take me.
+            </p>
+            <p id="demo">"The unexamined life is not worth living." - Socrates</p>
+            <button type="button" onclick="myFunction()">Try it</button>
+        </div>
+
+    </div>
 
     <hr>
 
     <main>
-
-        <section id="hero">
-            <div>
-                <h1>"The unexamined life is not worth living."</h1>
-                <p>Socrates</p>
-            </div>
-            <img src="assets/gallery.jpg" alt="Portrait of Leo Donn Araneta" height="360">
-        </section>
-
-        <hr>
-
-        <section id="about">
-            <h2>About Me</h2>
-            <div>
-                <div>
-                    <p>
-                        I'm Leo Donn Araneta, a Computer Science student at Asia Pacific College with an interest in
-                        software development, artificial intelligence, and automation. I enjoy exploring new
-                        technologies
-                        and turning ideas into practical projects, whether through school activities, personal projects,
-                        or
-                        hackathons. I'm particularly interested in how AI can be integrated into software to solve
-                        real-world problems and make processes more efficient.
-                    </p>
-                    <p>
-                        I believe the best way to learn is by building things, understanding how they work, and
-                        continuously improving them.
-                    </p>
-                </div>
-                <div>
-                    <h3>Goals</h3>
-                    <p>
-                        My goal is to pursue a career in AI automation, software engineering, or the SAP field. I'm
-                        still
-                        open to exploring different opportunities within these fields as I continue developing my
-                        technical
-                        skills, expanding my knowledge, and discovering where my interests and strengths can take me.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <hr>
 
         <section id="education">
             <h2>Education</h2>
@@ -197,14 +183,6 @@
                 <img src="assets/PXL_20260923_023713025.jpg" alt="Gallery photo 3" height="260">
                 <img src="assets/PXL_20261019_075328523.PORTRAIT.jpg" alt="Gallery photo 4" height="260">
             </div>
-        </section>
-
-        <hr>
-
-        <section id="js-demo">
-            <h2>JavaScript Demo</h2>
-            <p id="demo">A Paragraph.</p>
-            <button type="button" onclick="myFunction()">Try it</button>
         </section>
 
     </main>
